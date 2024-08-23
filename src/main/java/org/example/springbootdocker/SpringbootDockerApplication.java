@@ -10,7 +10,7 @@
     public class SpringbootDockerApplication {
         @GetMapping("/message")
         public String getMessage(){
-            return "Welcome to Spring Boot Docker Application";
+            return "Welcome to Spring Boot GITHUB-JENKINS-DOCKER Application";
         }
         public static void main(String[] args) {
             SpringApplication.run(SpringbootDockerApplication.class, args);
